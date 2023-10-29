@@ -1,0 +1,29 @@
+{
+  "name": "kalimba-color-theme",
+  "displayName": "Kalimba Color Theme",
+  "description": "An airy VS Code color theme that is easy on the eyes with balanced pastel accents.",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.81.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Kalimba",
+        "uiTheme": "vs-dark",
+        "path": "./themes/kalimba-dark.json"
+      }
+    ]
+  },
+  "publisher": "Riley Haefner",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/rybb13/kalimba-color-theme-vsce"
+  },
+  "devDependencies": {
+    "@vscode/vsce": "^2.21.0"
+  }
+}
